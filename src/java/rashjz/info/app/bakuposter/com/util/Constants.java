@@ -12,5 +12,5 @@ package rashjz.info.app.bakuposter.com.util;
 public class Constants {
 
     public static String JND_NAME = "BPJND";
-    public static String base64Header  = "cmFzaGp6OnBhcmtldDQ3MA==";
+    public static String base64Header  = "xxxxxxxxxxxxxxxx==";
 }
