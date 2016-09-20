@@ -37,9 +37,7 @@ public class AuthenticationService {
             final String username = tokenizer.nextToken();
             final String password = tokenizer.nextToken();
             LOG.info("tokenizer :::  " + username + "  ::::::: " + password);
-            // we have fixed the userid and password as admin
-            // call some UserService/LDAP here
-            authenticationStatus = "rashjz".equals(username) && "parket470".equals(password);
+            // check from db or manually
         } catch (IOException e) {
             e.printStackTrace();
             return false;
