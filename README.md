@@ -1,11 +1,10 @@
 # bakuposter-web-service
-https://play.google.com/store/apps/details?id=rashjz.info.bakuposter.com
-
-Android native application for review posts about new movies , spectacles, concerts .
-Functionality of android application :
-* Watch to trailer and poster 
-* Read description
-* Find on map 
-* Vote or like selected post 
-* Comment on post
-* Support Google plus and Facebook authorization for user profile for sing in
+java Rest web service get and post json data 
+web service for android native application 
+contains 6 method itself 
+1) public List<ListItem> contentList(SearchModel model);
+2) public ListItem getItemData(ListItem item);
+3) public Comment insertComment(Comment comment);
+4) public Vote voteContent(Vote vote);
+5) public String registerDevice (String name, String email, String regId);
+6) public void unregisterDevice(String regId);
